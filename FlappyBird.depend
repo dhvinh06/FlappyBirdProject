@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1746340894 source:c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\main.cpp
+	<iostream>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<ctime>
+	<vector>
+	"graphics.h"
+	"Textures.h"
+	"Pipe.h"
+	"Bird.h"
+	"Cloud.h"
+	"Numbers.h"
+	"GameState.h"
+	"GameMechanics.h"
+
+1745817716 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\header.h
+
+1746342470 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"GameState.h"
+
+1746342451 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\pipe.h
+	<vector>
+	"GameState.h"
+	"Textures.h"
+	"graphics.h"
+
+1746342323 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\bird.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	"graphics.h"
+	"Textures.h"
+	"Pipe.h"
+
+1746342323 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\cloud.h
+	<iostream>
+	<vector>
+	"graphics.h"
+	"Textures.h"
+	"GameState.h"
+
+1746207229 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\textures.h
+	<iostream>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+
+1746342451 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\numbers.h
+	<vector>
+	"graphics.h"
+	"GameMechanics.h"
+	"Textures.h"
+	"GameState.h"
+
+1746341762 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\gamestate.h
+	<iostream>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+
+1746342516 c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\gamemechanics.h
+	<iostream>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<ctime>
+	<vector>
+	"graphics.h"
+	"Textures.h"
+	"Pipe.h"
+	"Bird.h"
+	"Cloud.h"
+	"GameState.h"
+
+1746341887 source:c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\gamemechanics.cpp
+	"GameMechanics.h"
+	"GameState.h"
+
+1746340200 source:c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\pipe.cpp
+	"Pipe.h"
+	"GameState.h"
+
+1746341887 source:c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\bird.cpp
+	"Bird.h"
+	"GameState.h"
+
+1746341887 source:c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\numbers.cpp
+	"Numbers.h"
+	"GameState.h"
+
+1746340672 source:c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\cloud.cpp
+	"Cloud.h"
+
+1746341887 source:c:\users\admin\onedrive - vnu.edu.vn\documents\flappybird\graphics.cpp
+	"graphics.h"
+	"GameState.h"
+
