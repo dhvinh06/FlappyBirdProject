@@ -31,7 +31,6 @@ vector <SDL_Texture*> loadingNumbersTexture(Graphics& graphics) {
 void PrintingScore(Graphics& graphics, vector <SDL_Texture*> loadingNumbersTexture, Numbers &numbers) {
     string convert = to_string(Score);
     int totalwidth = numbers.width * convert.size();
-    int XofNumbers = SCREEN_WIDTH / 2 - totalwidth / 2;
 
     for (int i = 0;i < convert.size();i++) {
         int ChuSo = convert[i] - '0';

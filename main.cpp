@@ -58,9 +58,6 @@ int main(int argc, char* argv[]) {
     Mix_Chunk *Die = Mix_LoadWAV("die.wav");
     Mix_Chunk *Jump = Mix_LoadWAV("swoosh.wav");
 
-
-
-
     vector <SDL_Texture*> LoadedNumbersTexture = loadingNumbersTexture(graphics);
     vector <Pipe> PipeArray;
     PipeArray.push_back(pipe);
@@ -79,8 +76,6 @@ int main(int argc, char* argv[]) {
     gametextures.ScoreBoard = graphics.loadTexture ("ScoreBoard.png");
     gametextures.GoldMedal = graphics.loadTexture ("GoldMedal.png");
     gametextures.SilverMedal = graphics.loadTexture ("SilverMedal.png");
-
-
 
     objecttextures.FlappyBird0 = graphics.loadTexture("FlappyBird0.png");
     objecttextures.FlappyBird1 = graphics.loadTexture("FlappyBird1.png");
@@ -129,7 +124,7 @@ int main(int argc, char* argv[]) {
                 Mix_PauseMusic();
                 Mix_PlayChannel(-1, Die, 0);
                 PrintingScoreBoard (graphics,scoreboardnumbers,gametextures,LoadedNumbersTexture);
-                graphics.renderTexture(gametextures.GameOver, SCREEN_WIDTH / 2 - 320, CREEN_HEIGHT / 2 - 100, 1238 / 2, 340 / 2);
+                graphics.renderTexture(gametextures.GameOver, SCREEN_WIDTH / 2 - 320, SCREEN_HEIGHT / 2 - 100, 1238 / 2, 340 / 2);
                 graphics.renderTexture(gametextures.ReplayButton, (SCREEN_WIDTH - 100) / 2, (SCREEN_HEIGHT - 100) / 2 + 150, 100, 100);
                 graphics.presentScene();
                 Game_Overendered= true;
